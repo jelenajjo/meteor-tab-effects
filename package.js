@@ -9,6 +9,10 @@ Package.describe({
 Package.onUse(function (api) {
   api.use('jquery@1.0.0', 'client');
 
+  api.addFiles('fonts/stroke7pixeden/stroke7pixeden.eot', 'client');
+  api.addFiles('fonts/stroke7pixeden/stroke7pixeden.svg', 'client');
+  api.addFiles('fonts/stroke7pixeden/stroke7pixeden.ttf', 'client');
+  api.addFiles('fonts/stroke7pixeden/stroke7pixeden.woff', 'client');
   api.addFiles('demo.css', 'client');
   api.addFiles('tabs.css', 'client');
   api.addFiles('tabstyles.css', 'client');
