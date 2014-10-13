@@ -1,6 +1,6 @@
 Package.describe({
   summary: "A couple of modern and subtle tab styles and effects for your inspiration.",
-  version: "1.0.0",
+  version: "1.0.1",
   name: "jelena:meteor-tab-effects",
   git: "https://github.com/jelenajjo/meteor-tab-effects.git"
 });
